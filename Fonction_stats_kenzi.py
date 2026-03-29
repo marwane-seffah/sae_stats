@@ -18,4 +18,4 @@ def repartition_dignite():
 
 	plt.tight_layout()
 	plt.show()
-print(repartition_dignite())
+repartition_dignite()
