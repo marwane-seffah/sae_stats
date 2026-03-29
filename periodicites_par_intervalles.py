@@ -15,7 +15,7 @@ def periodicites_par_intervalles():
     plt.hist(types_entretien["periodicite"],
              range=[1,730], # Entretiens effectués de tout les jours à tout les 2 ans
              bins=[1,30,90,180,365,730], # en groupant par fréquences différentes
-             color="orange",
+             color="#E0A458",
              edgecolor='black',
              align="left")
     plt.title("Effectifs des périodicités d'entretien des types d'entretiens par intervalles de durée")
