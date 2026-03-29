@@ -6,7 +6,7 @@ def rupture_stocks():
     Affiche un diagramme des ingrédients les plus utilisés et indique le seuil
     de rupture potentielle
     """
-    estcompose = pd.read_csv("estCompose.csv")
+    estcompose = pd.read_csv("EstCompose.csv")
     stats_stock = estcompose['nomComposant'].value_counts()
 
     top_ingredients = stats_stock.head(10) #pour avoir les 10 plus utilisés
