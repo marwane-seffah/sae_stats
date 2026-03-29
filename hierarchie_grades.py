@@ -8,7 +8,7 @@ def hierarchie_grades():
     pre:
     post:
     """
-    tenrac = pd.read_csv("tenrac.csv")
+    tenrac = pd.read_csv("Tenrac.csv")
     stats_grade = tenrac.groupby('nomGrade').count() # pour obtenir des effectifs
     
     GRADES = ['Affilié', 'Sympathisant', 'Adhérent', 'Chevalier', 'Grand Chevalier', 'Commandeur', "Grand'Croix"]
