@@ -21,7 +21,7 @@ def rupture_stocks():
     plt.xlabel('Nom des ingrédients')
     plt.ylabel('Nombre de plats qui utilise cet ingrédient')
     plt.legend()
-    plt.tightlayout()
+    plt.tight_layout()
 
     plt.show()
 
