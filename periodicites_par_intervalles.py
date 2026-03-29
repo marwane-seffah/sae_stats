@@ -11,7 +11,7 @@ def periodicites_par_intervalles():
     pre:
     post:
     """
-    types_entretien = pd.read_csv("typeEntretien.csv")
+    types_entretien = pd.read_csv("TypeEntretien.csv")
     plt.hist(types_entretien["periodicite"],
              range=[1,730], # Entretiens effectués de tout les jours à tout les 2 ans
              bins=[1,30,90,180,365,730], # en groupant par fréquences différentes
